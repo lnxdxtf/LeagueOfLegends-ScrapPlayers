@@ -16,7 +16,7 @@ players = app2.takeScreen()
 # players = str(input("Digite o nome dos players: "))
 # players = players.replace("entrou no saguão",", ").replace("\n"," ")
 
-print("Players/nick: \n", players)
+
 if players:
     app = scrapApp()
     app.getPlayers(players)

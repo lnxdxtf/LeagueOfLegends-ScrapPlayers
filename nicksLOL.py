@@ -21,7 +21,7 @@ class lolClientScrap():
 
     def recognitionNicks(self):
          
-        dados = pytesseract.image_to_string( self.img ).replace("\n","").replace("entrou no sagulo", ", ").replace("entrou no saguao",", ").replace("entrou no saguso",", ").replace("‘",", ").replace("entrou no saguéo",", ").replace("entrou no sagu3o",", ").replace("entrou no sagu8o",", ").replace("entrou no sagudo",", ")
+        dados = pytesseract.image_to_string( self.img ).replace("\n","").replace("entrou no sagulo", ", ").replace("entrou no saguao",", ").replace("entrou no saguso",", ").replace("‘",", ").replace("entrou no saguéo",", ").replace("entrou no sagu3o",", ").replace("entrou no sagu8o",", ").replace("entrou no sagudo",", ").replace("entrou no saguio",", ")
         
         return dados
 
